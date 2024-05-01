@@ -11,7 +11,17 @@ const App = () => {
         <button className="btn">Add</button>
       </form>
 
-      
+      <h1 className="header">Todo List</h1>
+      <ul className="list">
+        <li>
+          <label htmlFor="">
+            <input type="checkbox" />
+            item 1
+          </label>
+
+          <button className="btn btn-danger">Delete</button>
+        </li>
+      </ul>
     </>
   );
 };
